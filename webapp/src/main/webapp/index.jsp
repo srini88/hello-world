@@ -1,6 +1,33 @@
 <form action="action_page.php">
+  <head>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      
+      .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+      }
+      
+      /* Clearfix (clear floats) */
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      </style>
+  <div class="row">
+    <div class="column">
+      <img src="aarav_pumpkin.jpg" alt="aarav1" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="aarav_pumpkin.jpg" alt="aarav2" style="width:100%">
+    </div>
+  </div>
   <div class="container">
-    <h1>New user Register for DevOps Learning</h1>
+    <h1>AARAV KUTTY TEST WEBSITE</h1>
     <p>Please fill in this form to create an account.</p>
     <hr>
      
@@ -32,6 +59,8 @@
   </div>
 
    <h1> Thankyou, Happy Learning </h1>
+
+
 
   
 </form>
