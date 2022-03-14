@@ -22,9 +22,6 @@
     <div class="column">
       <img src="aarav_pumpkin.jpg" alt="aarav1" style="width:100%">
     </div>
-    <div class="column">
-      <img src="aarav_pumpkin.jpg" alt="aarav2" style="width:100%">
-    </div>
   </div>
   <div class="container">
     <h1>AARAV KUTTY TEST WEBSITE</h1>
